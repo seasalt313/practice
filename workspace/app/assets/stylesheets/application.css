@@ -1,0 +1,43 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+    background-color: #703D6F;
+    color: #E6EBA9;
+    font-size: 20px;
+    font-family: 'Pontano Sans', sans-serif;
+    text-align: center;
+}
+
+a:hover {
+    color: #AADEAD;
+}
+
+a {
+    font-weight: bold;
+    color: #F59D92;
+}
+
+.homeland, .travel {
+    text-align: left;
+    color: #E5B8AD;
+    padding: 10, 0, 10, 0;
+} 
+
+footer {
+text-align: left bottom;
+    
+}
